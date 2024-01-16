@@ -9,12 +9,12 @@ https://download.oracle.com/java/17/latest/jdk-17_windows-x64_bin.zip
 after downloading the archive unpack it to c:\jdk
 
 ## 2. Install spark
-Isntall spark with hadoop, use version 3.5.0 and pre-built Apache Hadoop 3.3 and later
+Install spark with hadoop, use version 3.5.0 and pre-built Apache Hadoop 3.3 and later
 ```
 https://spark.apache.org/downloads.html
 ```
 unpack it to c:\spark
-find log4j.properties.template and rename it to log4j.properties
+find log4j.properties.template (spark\conf folder) and rename it to log4j.properties
 open it up and change:
 ```
 log4j.rootCategory=INFO -> log4j.rootCategory=ERROR
