@@ -22,9 +22,10 @@ log4j.rootCategory=INFO -> log4j.rootCategory=ERROR
 ## 3. Install winutils
 download winutils version for hadoop downloaded with spark
 ```
-https://github.com/cdarlint/winutils/tree/master
+https://github.com/cdarlint/winutils
 ```
-place it in hadoop folder
+click the green <Code> button and choose the option do download zip archive
+uzip the archive and place it in hadoop folder
 
 ## 4. Add user variables
 
