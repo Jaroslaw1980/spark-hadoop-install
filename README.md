@@ -19,6 +19,7 @@ open it up and change:
 ```
 rootLogger.level = info -> rootLogger.level = error
 ```
+save the file after
 ## 3. Install winutils
 download winutils version for hadoop downloaded with spark
 ```
