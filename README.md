@@ -26,7 +26,8 @@ download winutils version for hadoop downloaded with spark
 https://github.com/cdarlint/winutils
 ```
 click the green *Code* button and choose the option do download zip archive  
-uzip the archive and place it in c:\hadoop folder
+uzip the archive and place it in c:\hadoop folder  
+in bin folder paste missing .dll
 
 ## 4. Add user variables
 Open Environmet Variables on your computer and add new User Variables for you:
