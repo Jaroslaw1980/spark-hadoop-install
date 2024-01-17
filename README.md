@@ -25,7 +25,7 @@ download winutils version for hadoop downloaded with spark
 ```
 https://github.com/cdarlint/winutils
 ```
-click the green *Code* button and choose the option do download zip archive  
+click the green *Code* button and choose the option do download zip-archive  
 uzip the archive and place it in c:\hadoop folder  
 choose version 3.3.5  
 in bin folder paste missing .dll from the repo
