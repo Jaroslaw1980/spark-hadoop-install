@@ -13,8 +13,8 @@ Install spark with hadoop, use version 3.5.0 and pre-built Apache Hadoop 3.3 and
 ```
 https://spark.apache.org/downloads.html
 ```
-unpack it to c:\spark
-find log4j.properties.template (spark\conf folder) and rename it to log4j.properties
+unpack it to c:\spark  
+find log4j.properties.template (spark\conf folder) and rename it to log4j.properties  
 open it up and change:
 ```
 rootLogger.level = info -> rootLogger.level = error
