@@ -25,18 +25,55 @@ download winutils version for hadoop downloaded with spark
 ```
 https://github.com/cdarlint/winutils
 ```
-click the green *Code* button and choose the option do download zip archive
+click the green *Code* button and choose the option do download zip archive  
 uzip the archive and place it in c:\hadoop folder
 
 ## 4. Add user variables
+Open Environmet Variables on your computer and add new User Variables for you:
 
-SPARK_HOME 
+* for Spark
+click *New...* button and in *Variable name:* field type:
+```
+SPARK_HOME
+```
+on *Variable value:* field click *Browse Directory...* button and find folder where you unpack your spark+hadoop  
+for example: c:\spark,  
+in this folder there should be spark folders like bin, conf, data etc.
+
+* for Java set Variable name to:
+```
 JAVA_HOME
+```
+and for Variable value use the path to jdk for example c:\jdk
+
+* for Hadoop set variable name to:
+```
 HADOOP_HOME
+```
+and variable value as path to hadoop for example c:\hadoop
+
+* for pyspark:
+```
 PYSPARK_PYTHON
-path for user variables:
+```
+and path to your python install on your computer, for that,  
+open command prompt on windows and type:
+```
+where python
+```
+copy paste this path into PYSPARK_PYTHON variable value
+
+* for path variables:  
+use *Edit...* button on your User variables *Path* variable, and then use *New* button and add those variables:
+```
 %SPARK_HOME%\bin
+```
+click *Enter* after adding variable
+```
 %JAVA_HOME%\bin
+```
+hit *OK* button after adding variables.
+
 
 
 
