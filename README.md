@@ -17,7 +17,7 @@ unpack it to c:\spark
 find log4j.properties.template (spark\conf folder) and rename it to log4j.properties
 open it up and change:
 ```
-log4j.rootCategory=INFO -> log4j.rootCategory=ERROR
+rootLogger.level = info -> rootLogger.level = error
 ```
 ## 3. Install winutils
 download winutils version for hadoop downloaded with spark
