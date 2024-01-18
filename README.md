@@ -79,6 +79,9 @@ click *Enter* after adding variable
 ```
 %JAVA_HOME%\bin
 ```
+```
+%HADOOP_HOME%\bin
+```
 hit *OK* button after adding variables.
 
 
