@@ -28,7 +28,12 @@ https://github.com/cdarlint/winutils
 click the green *Code* button and choose the option do download zip-archive  
 uzip the archive and place it in c:\hadoop folder  
 choose version 3.3.5  
-in bin folder paste missing .dll from the repo
+!!! HINT if you set variables for Hadoop type in command prompt:
+```
+%HADOOP_HOME%/bin/wintuils.exe
+```
+if error pop up  
+paste in bin folder missing .dll from the repo
 
 ## 4. Add user variables
 Open Environmet Variables on your computer and add new User Variables for you:
