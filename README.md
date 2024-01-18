@@ -28,7 +28,7 @@ https://github.com/cdarlint/winutils
 click the green *Code* button and choose the option do download zip-archive  
 uzip the archive and place it in c:\hadoop folder  
 choose version 3.3.5  
-!!! HINT if you set variables for Hadoop type in command prompt:
+!!! HINT when you set variables for Hadoop type in command prompt:
 ```
 %HADOOP_HOME%/bin/wintuils.exe
 ```
