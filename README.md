@@ -82,7 +82,13 @@ click *Enter* after adding variable
 ```
 %HADOOP_HOME%\bin
 ```
-hit *OK* button after adding variables.
+hit *OK* button after adding variables.  
+For setting path variables by windows command line:  
+```
+setx Path "$Path%; %SPARK_HOME%\bin\"
+setx Path "$Path%; %JAVA_HOME%\bin\"
+setx Path "$Path%; %HADOOP_HOME%\bin\"
+```
 
 
 
